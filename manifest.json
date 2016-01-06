@@ -1,18 +1,17 @@
 {
   "manifest_version": 2,
-  "name": "Article Hustler",
-  "description": "Search WSJ article in google for links that enables the full article content or to other sources",
-  "version": "0.0.2",
+  "name": "PB&J",
+  "description": "Pantsbuild Jenkins Shortcuts",
+  "version": "0.0.1",
   "browser_action": {
-    "default_icon": "hustler.png",
+    "default_icon": "icon128.png",
     "default_popup": "popup.html",
-    "default_title": "Article Hustler"
+    "default_title": "PBJ"
   },
   "content_scripts": [
     {
       "matches": [
-        "http://*.wsj.com/*",
-        "https://*.wsj.com/*"
+        "https://github.com/pantsbuild/pants/pull/*"
       ],
       "js": [
         "jquery.min.js",
