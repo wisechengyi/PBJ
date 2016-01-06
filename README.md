@@ -1,5 +1,6 @@
 # Pantsbuild Jenkins Chrome Extension
 
+* No more typing "CI this"!
+
 ![demo](resources/cithis.gif)
 
-* No more typing "CI this"!
